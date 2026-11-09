@@ -1,55 +1,57 @@
-# Hi there, I'm Cao Longyang 👋
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/hero-light.svg">
+    <img alt="Cao Longyang — AI agent engineer" src="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/hero-light.svg" width="880">
+  </picture>
+</p>
 
-## 🚀 About Me
+> I build agents that touch real systems — a live Gmail inbox, a browser, a university portal — rather than demos that stop at a chat window.
 
-I'm a developer passionate about **AI/ML**, **backend engineering**, and **DevOps tooling**. Currently studying at Universiti Malaya and building projects that solve real problems.
+<br>
 
-- 🔭 I'm currently working on **[InboxPilot](https://github.com/CaoLongyang/inboxpilot)** — an AI agent that turns emails into actionable tasks
-- 🌱 I'm currently learning **LLM application development** and **cloud-native DevOps**
-- 👯 I'm looking to collaborate on **open-source AI tools** and **Python/Java backend projects**
-- 💬 Ask me about **Python automation**, **Java backend**, and **AI integrations**
-- ⚡ Fun fact: I built an auto-attendance tracker that saved students from missing sign-ins
+### Work
 
-## 🛠️ Tech Stack
+**[InboxPilot](https://github.com/CaoLongyang/inboxpilot)**  
+<sub>Python · NVIDIA Nemotron · Nebius · Gmail API</sub>
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+Reads a real Gmail inbox, decides which messages actually need action, waits for approval, then writes a verified draft. The hard part was not the model call — it was keeping a human in the loop without making the flow tedious.
 
-### AI & Machine Learning
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![NVIDIA Nemotron](https://img.shields.io/badge/NVIDIA%20Nemotron-76B900?style=flat-square&logo=nvidia&logoColor=white)
+**[UM-Auto-Attendance](https://github.com/CaoLongyang/UM-Auto-Attendance)**  
+<sub>Python · Selenium · scheduled tasks</sub>
 
-### Backend & DevOps
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+Attendance at Universiti Malaya opens in unpredictable windows. This watches for them, signs in on time, and stays out of the way otherwise — with a GUI so it is not a black box.
 
-## 📌 Featured Projects
+**[MealWise](https://github.com/CaoLongyang/MealWise)**  
+<sub>Python</sub>
 
-### [InboxPilot](https://github.com/CaoLongyang/inboxpilot) ⭐
-AI email-to-action agent that reads real Gmail, analyzes content with NVIDIA Nemotron on Nebius, gets user approval, and creates verified Gmail drafts.
+A meal planning assistant built around a constraint I kept running into: deciding what to eat takes longer than cooking it.
 
-### [UM-Auto-Attendance](https://github.com/CaoLongyang/UM-Auto-Attendance) ⭐⭐
-Automated attendance tracker for University of Malaya (UM) Spectrum. Features a user-friendly GUI, auto-login, and background scheduling.
+<br>
 
-### [MealWise](https://github.com/CaoLongyang/MealWise)
-Smart meal planning assistant built with Python.
+### Open source
 
-## 📊 GitHub Stats
+Pull requests I have opened against projects I actually use. Reading someone else's codebase until you can change one thing safely is the fastest way I know to learn.
 
-<img src="https://github-readme-stats.vercel.app/api?username=CaoLongyang&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" />
+| Project | Change |
+| :--- | :--- |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review/pull/1888) `#1888` | Gate the scan `PLAN_TASK` pre-pass on file size, mirroring review's threshold |
+| [trycua/cua](https://github.com/trycua/cua/pull/7107) `#7107` | Let callers set `browser_download`'s timeout instead of a hardcoded 30s |
+| [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community/pull/661) `#661` | New arXiv data-source connector, with pagination and rate limiting |
+| [keyshade-xyz/keyshade](https://github.com/keyshade-xyz/keyshade/pull/1302) `#1302` | Stop generating slugs that begin with a hyphen |
+| [sio2project/oioioi](https://github.com/sio2project/oioioi/pull/958) `#958` | Make django-debug-toolbar work in the Docker dev setup |
+| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock/pull/3212) `#3212` | Move 8 sites from HTTP to HTTPS |
+| [Dpro-at/Tel-Agent](https://github.com/Dpro-at/Tel-Agent/pull/272) `#272` `#273` | Simplified Chinese translations for the UI |
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaoLongyang&layout=compact&hide_border=true&theme=default" alt="Top Languages" />
+<br>
 
-## 🤝 Connect with Me
+### Toolbox
 
-[![GitHub](https://img.shields.io/badge/GitHub-CaoLongyang-181717?style=flat-square&logo=github)](https://github.com/CaoLongyang)
+**Languages** — Python · Java · JavaScript · SQL  
+**AI** — PyTorch · LangChain · prompt and tool orchestration  
+**Backend** — FastAPI · Spring · REST  
+**Infra** — Docker · GitHub Actions · Linux
 
----
+<br>
 
-⭐ From [CaoLongyang](https://github.com/CaoLongyang)
+<sub>Kuala Lumpur, Malaysia · [github.com/CaoLongyang](https://github.com/CaoLongyang)</sub>
