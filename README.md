@@ -29,28 +29,19 @@ A meal planning assistant built around a constraint I kept running into: decidin
 
 <br>
 
-### Open source
-
-Pull requests I have opened against projects I actually use. Reading someone else's codebase until you can change one thing safely is the fastest way I know to learn.
-
-| Project | Change |
-| :--- | :--- |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review/pull/1888) `#1888` | Gate the scan `PLAN_TASK` pre-pass on file size, mirroring review's threshold |
-| [trycua/cua](https://github.com/trycua/cua/pull/7107) `#7107` | Let callers set `browser_download`'s timeout instead of a hardcoded 30s |
-| [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community/pull/661) `#661` | New arXiv data-source connector, with pagination and rate limiting |
-| [keyshade-xyz/keyshade](https://github.com/keyshade-xyz/keyshade/pull/1302) `#1302` | Stop generating slugs that begin with a hyphen |
-| [sio2project/oioioi](https://github.com/sio2project/oioioi/pull/958) `#958` | Make django-debug-toolbar work in the Docker dev setup |
-| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock/pull/3212) `#3212` | Move 8 sites from HTTP to HTTPS |
-| [Dpro-at/Tel-Agent](https://github.com/Dpro-at/Tel-Agent/pull/272) `#272` `#273` | Simplified Chinese translations for the UI |
-
-<br>
-
 ### Toolbox
 
-**Languages** — Python · Java · JavaScript · SQL  
-**AI** — PyTorch · LangChain · prompt and tool orchestration  
-**Backend** — FastAPI · Spring · REST  
-**Infra** — Docker · GitHub Actions · Linux
+**Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**AI**  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+
+**Backend**  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+
+**Infra**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 <br>
 
