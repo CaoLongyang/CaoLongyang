@@ -47,12 +47,12 @@ More experiments in [my repositories](https://github.com/CaoLongyang?tab=reposit
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=CaoLongyang&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=8B7CFF&icon_color=38D9F5&text_color=C9D1D9">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=CaoLongyang&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=6E56CF&icon_color=0E7490&text_color=24292F" alt="GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=CaoLongyang&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&disable_animations=true&bg_color=00000000&title_color=8B7CFF&icon_color=38D9F5&text_color=C9D1D9">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=CaoLongyang&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&disable_animations=true&bg_color=00000000&title_color=6E56CF&icon_color=0E7490&text_color=24292F" alt="GitHub stats">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?username=CaoLongyang&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=8B7CFF&text_color=C9D1D9">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=CaoLongyang&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=6E56CF&text_color=24292F" alt="Top languages">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?username=CaoLongyang&layout=compact&hide_border=true&langs_count=8&disable_animations=true&bg_color=00000000&title_color=8B7CFF&text_color=C9D1D9">
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=CaoLongyang&layout=compact&hide_border=true&langs_count=8&disable_animations=true&bg_color=00000000&title_color=6E56CF&text_color=24292F" alt="Top languages">
   </picture>
 </p>
 
