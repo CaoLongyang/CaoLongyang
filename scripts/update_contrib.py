@@ -4,6 +4,12 @@
 Data comes from the GitHub GraphQL contribution calendar. The SVG draws itself
 on load and keeps a soft pulse on the latest week, so it stays alive without
 looping something that would look glitchy.
+
+Run it as the account owner (an Actions GITHUB_TOKEN undercounts: it cannot see
+contributions to repos the app has no access to). Refresh it whenever you want
+the window to roll forward:
+
+    python scripts/update_contrib.py CaoLongyang
 """
 import json
 import os
