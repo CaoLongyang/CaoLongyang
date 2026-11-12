@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1400&color=8B7CFF&center=true&vCenter=true&width=620&lines=Agents+that+read%2C+decide%2C+and+act;Python+first%2C+everything+else+when+it+earns+its+place;Shipping+beats+demoing" alt="Agents that read, decide, and act">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=8B7CFF&center=true&vCenter=true&width=780&lines=Agents+that+read%2C+decide%2C+and+act;Python+first%2C+everything+else+when+it+earns+its+place;Shipping+beats+demoing" alt="Agents that read, decide, and act">
   </a>
 </p>
 
