@@ -1,55 +1,74 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/hero-light.svg">
-    <img alt="Cao Longyang — AI agent engineer" src="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/hero-light.svg" width="880">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/assets/hero-light.svg">
+    <img src="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/assets/hero-light.svg" alt="Cao Longyang — AI agent engineer" width="880">
   </picture>
 </p>
 
-> I build agents that touch real systems — a live Gmail inbox, a browser, a university portal — rather than demos that stop at a chat window.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1400&color=8B7CFF&center=true&vCenter=true&width=620&lines=Agents+that+read%2C+decide%2C+and+act;Python+first%2C+everything+else+when+it+earns+its+place;Shipping+beats+demoing" alt="Agents that read, decide, and act">
+  </a>
+</p>
 
-<br>
+<p align="center">
+  <img alt="followers" src="https://img.shields.io/github/followers/CaoLongyang?style=flat-square&label=followers&labelColor=57606A&color=6E56CF">
+  <img alt="location" src="https://img.shields.io/badge/Kuala%20Lumpur-Malaysia-0E7490?style=flat-square&labelColor=57606A">
+  <img alt="school" src="https://img.shields.io/badge/Universiti%20Malaya-Computer%20Science-1F6FEB?style=flat-square&labelColor=57606A">
+</p>
 
-### Work
+## About
 
-**[InboxPilot](https://github.com/CaoLongyang/inboxpilot)**  
-<sub>Python · NVIDIA Nemotron · Nebius · Gmail API</sub>
+I'm a computer science student at **Universiti Malaya**, and I build agents that touch real systems — a live Gmail inbox, a browser session, a university portal — rather than demos that stop at a chat window.
 
-Reads a real Gmail inbox, decides which messages actually need action, waits for approval, then writes a verified draft. The hard part was not the model call — it was keeping a human in the loop without making the flow tedious.
+The model call is the easy part. What keeps pulling me back is everything around it: tokens that expire, pages that shift under you, a job that has to fire at 3am, and a human who needs to approve the last step without being annoyed by it.
 
-**[UM-Auto-Attendance](https://github.com/CaoLongyang/UM-Auto-Attendance)**  
-<sub>Python · Selenium · scheduled tasks</sub>
+## What I'm building
 
-Attendance at Universiti Malaya opens in unpredictable windows. This watches for them, signs in on time, and stays out of the way otherwise — with a GUI so it is not a black box.
+| Project | What it does | Built with |
+| :--- | :--- | :--- |
+| **[InboxPilot](https://github.com/CaoLongyang/inboxpilot)** | Reads a real Gmail inbox, decides which messages actually need action, waits for approval, then writes a verified draft. | `Python` `NVIDIA Nemotron` `Nebius` `Gmail API` |
+| **[UM-Auto-Attendance](https://github.com/CaoLongyang/UM-Auto-Attendance)** | Watches for Universiti Malaya's unpredictable attendance windows, signs in on time, and stays out of the way otherwise — with a GUI, so it isn't a black box. | `Python` `Selenium` `scheduled tasks` |
 
-**[MealWise](https://github.com/CaoLongyang/MealWise)**  
-<sub>Python</sub>
+More experiments in [my repositories](https://github.com/CaoLongyang?tab=repositories).
 
-A meal planning assistant built around a constraint I kept running into: deciding what to eat takes longer than cooking it.
+## Tech stack
 
-<br>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/assets/tech-stack-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/assets/tech-stack-light.svg">
+    <img src="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/assets/tech-stack-light.svg" alt="Python, Java, JavaScript, TypeScript, FastAPI, Spring, Docker, PyTorch, OpenAI, Claude, Hugging Face, MCP" width="900">
+  </picture>
+</p>
 
-### Toolbox
+## On GitHub
 
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=CaoLongyang&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=8B7CFF&icon_color=38D9F5&text_color=C9D1D9">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=CaoLongyang&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=6E56CF&icon_color=0E7490&text_color=24292F" alt="GitHub stats">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?username=CaoLongyang&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=8B7CFF&text_color=C9D1D9">
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=CaoLongyang&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=6E56CF&text_color=24292F" alt="Top languages">
+  </picture>
+</p>
 
-**AI**  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/output/snake.svg">
+    <img src="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/output/snake.svg" alt="Contribution snake">
+  </picture>
+</p>
 
-**Backend**  
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+## Contact
 
-**Infra**  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+<p align="center">
+  <a href="https://www.linkedin.com/in/kelvin-cao-a3975438a/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Kelvin%20Cao-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=57606A"></a>
+  <a href="https://www.instagram.com/cavincao/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-cavincao-E4405F?style=flat-square&logo=instagram&logoColor=white&labelColor=57606A"></a>
+</p>
 
-<br>
-
-### Contact
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kelvin%20Cao-0A66C2?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjZmZmIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B&logoColor=white)](https://www.linkedin.com/in/kelvin-cao-a3975438a/)
-[![Instagram](https://img.shields.io/badge/Instagram-cavincao-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/cavincao/)
-
-<br>
-
-<sub>Kuala Lumpur, Malaysia · [github.com/CaoLongyang](https://github.com/CaoLongyang)</sub>
+<p align="center"><sub>Kuala Lumpur, Malaysia · <a href="https://github.com/CaoLongyang">github.com/CaoLongyang</a></sub></p>
