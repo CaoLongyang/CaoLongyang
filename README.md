@@ -58,9 +58,9 @@ More experiments in [my repositories](https://github.com/CaoLongyang?tab=reposit
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/output/snake.svg">
-    <img src="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/output/snake.svg" alt="Contribution snake">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/assets/contrib-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/assets/contrib-light.svg">
+    <img src="https://raw.githubusercontent.com/CaoLongyang/CaoLongyang/main/assets/contrib-light.svg" alt="Contributions over the last 12 months" width="900">
   </picture>
 </p>
 

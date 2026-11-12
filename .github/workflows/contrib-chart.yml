@@ -1,0 +1,33 @@
+name: Update contribution chart
+
+on:
+  schedule:
+    - cron: "15 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate chart
+        run: python scripts/update_contrib.py ${{ github.repository_owner }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/contrib-dark.svg assets/contrib-light.svg
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "chore: refresh contribution chart"
+          git push
