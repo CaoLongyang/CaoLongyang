@@ -118,11 +118,13 @@ def build(cal, theme):
       f"letter-spacing:-1.4px;fill:{P['strong']}}}")
     a(f".sub{{font:400 11.5px ui-sans-serif,-apple-system,'Segoe UI',Roboto,sans-serif;fill:{P['text']}}}")
     a(f".tick{{font:400 9px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:{P['text']}}}")
+    # static state is the finished state: if a client ignores CSS animations the
+    # chart still shows a complete line instead of an empty panel
     a(f".ln{{fill:none;stroke:url(#ln);stroke-width:2.4;stroke-linecap:round;"
-      f"stroke-dasharray:{plen};stroke-dashoffset:{plen};animation:draw 2.6s cubic-bezier(.4,0,.2,1) .15s forwards}}")
-    a(".area{animation:areafade 2.6s ease .35s both}")
+      f"stroke-dasharray:{plen};animation:draw 2.6s cubic-bezier(.4,0,.2,1) forwards}}")
+    a(".area{animation:areafade 2.6s ease both}")
     a(".dot{animation:pulse 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}")
-    a("@keyframes draw{to{stroke-dashoffset:0}}")
+    a(f"@keyframes draw{{from{{stroke-dashoffset:{plen}}}to{{stroke-dashoffset:0}}}}")
     a("@keyframes areafade{0%,25%{opacity:0}100%{opacity:1}}")
     a("@keyframes pulse{0%{opacity:.55;transform:scale(.4)}70%{opacity:0;transform:scale(2.6)}"
       "100%{opacity:0;transform:scale(2.6)}}")
